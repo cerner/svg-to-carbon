@@ -1,0 +1,9 @@
+language: node_js
+cache: false
+sudo: required
+script:
+  - npm run lint
+  - npm run test
+branches:
+  only:
+    - master

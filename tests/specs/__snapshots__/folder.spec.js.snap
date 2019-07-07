@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SVG Folder to JSON Converts correctly 1`] = `
+Array [
+  Object {
+    "0031_glasses_a.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "d": "M48,22.7L37.4,12.1c-1.3-1.3-3.6-1.3-4.9,0l-3.8,3.8l2.1,2.1l3.8-3.8c0.1-0.1,0.3-0.1,0.4-0.1s0.2,0,0.4,0.1L43,22
+	c-1.2-0.6-2.8-1-4.8-1c-6.7,0-9.7,1.4-10.9,3.8c-1-0.4-2.2-0.7-3.3-0.7s-2.3,0.2-3.3,0.7C19.5,22.4,16.5,21,9.8,21
+	c-2,0-3.6,0.3-4.8,1l7.7-7.7c0.2-0.2,0.5-0.2,0.7,0l3.8,3.8l2.1-2.1l-3.8-3.8c-1.4-1.4-3.6-1.4-4.9,0L0,22.7h0V26h0l1.7,1.7
+	c0,0.3,0,0.5,0,0.8c0,4.8,4.8,8.3,9.8,8.3c5,0,9.8-3.5,9.8-8.3c0-0.3,0-0.5,0-0.8c0.8-0.4,1.7-0.6,2.7-0.6s1.9,0.2,2.7,0.6
+	c0,0.3,0,0.5,0,0.8c0,4.8,4.8,8.3,9.8,8.3c5,0,9.8-3.5,9.8-8.3c0-0.3,0-0.6,0-0.8L48,26h0L48,22.7L48,22.7z M11.5,34.2
+	c-3.4,0-7.1-2.3-7.1-5.6c0-3.2,0.9-4.9,5.4-4.9c8.8,0,8.8,2.3,8.8,4.9C18.6,31.9,14.9,34.2,11.5,34.2z M36.5,34.2
+	c-3.4,0-7.1-2.3-7.1-5.6c0-2.6,0-4.9,8.8-4.9c3.5,0,5.4,0.8,5.4,4.9C43.6,31.9,39.8,34.2,36.5,34.2z",
+      },
+    },
+  },
+  Object {
+    "0037_exclamation_i_heavyTriangleRed.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Array [
+        Object {
+          "d": "M1.2,45c-1.1,0-1.6-0.8-1-1.7L23,3.7c0.5-1,1.4-1,2,0l22.8,39.6c0.5,1,0.1,1.7-1,1.7H1.2z",
+          "fill": "#E50000",
+          "id": "triangle_1_",
+        },
+        Object {
+          "d": "M21.5,36.7h5V42h-5V36.7z M21.5,14h5v17.3h-5V14z",
+          "fill": "#FFFFFF",
+          "id": "exclamation",
+        },
+      ],
+    },
+  },
+  Object {
+    "0037_exclamation_i_heavyTriangleYellow.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Array [
+        Object {
+          "d": "M1.2,45c-1.1,0-1.6-0.8-1-1.7L23,3.7c0.5-1,1.4-1,2,0l22.8,39.6c0.5,1,0.1,1.7-1,1.7H1.2z",
+          "fill": "#FFC20A",
+          "id": "triangle_1_",
+        },
+        Object {
+          "d": "M47.7,43.3L25,3.7C24.7,3.2,24.4,3,24,3s-0.7,0.2-1,0.7L0.2,43.3c-0.5,1-0.1,1.7,1,1.7
+	h45.5C47.8,45,48.3,44.2,47.7,43.3z M1.8,43.5L24,5l22.2,38.5H1.8z M21.5,36.7h5V42h-5V36.7z M21.5,14h5v17.3h-5V14z",
+          "fill": "#1C1F21",
+          "id": "exclamation",
+        },
+      ],
+    },
+  },
+  Object {
+    "0037_exclamation_i_lightCircleGray.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "class": "st0",
+        "d": "M24,2c12.1,0,22,9.9,22,22s-9.9,22-22,22S2,36.1,2,24S11.9,2,24,2 M24,0C10.7,0,0,10.7,0,24s10.7,24,24,24
+	s24-10.7,24-24S37.3,0,24,0L24,0z M27,40h-6v-6h6V40z M27,29h-6V9h6V29z",
+      },
+    },
+  },
+  Object {
+    "0041_x_i_heavyCircle.svg": Object {
+      "circle": Object {
+        "cx": "24",
+        "cy": "24",
+        "id": "circle",
+        "r": "24",
+      },
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "polygon": Object {
+        "fill": "#FFFFFF",
+        "id": "letterX",
+        "points": "28.2,24 37.9,14.2 35.8,12.1 34.6,10.9 34.6,10.9 33.6,10 24,19.7 14.4,10 12.2,12.1 
+	11.1,13.2 11.1,13.2 10.1,14.2 19.8,24 10.1,33.8 11.1,34.8 11.1,34.8 12.2,35.9 14.4,38 24,28.3 33.6,38 34.6,37.1 34.6,37.1 
+	35.8,35.9 37.9,33.8 ",
+      },
+    },
+  },
+  Object {
+    "0143_personCurvedArrow_a.svg": Object {
+      "g": Object {
+        "g": Object {
+          "circle": Object {
+            "cx": "19.1",
+            "cy": "8.7",
+            "r": "8.7",
+          },
+        },
+        "path": Array [
+          Object {
+            "d": "M34.2,31.9c-0.4-6.9-6-12.3-13-12.3H17c-7.2,0-13,5.8-13,13V37h20.2C26.5,34.2,30,32.3,34.2,31.9z",
+          },
+          Object {
+            "d": "M48,36.3l-6.8-7.1V34c0,0-3.5,0-4.5,0C28.5,34,24,39.1,24,45.2c0,0.8,0,1.6,0,2.4c1-5,4.4-9.1,9.7-9.1h7.5v4.7L48,36.3z",
+          },
+        ],
+      },
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+    },
+  },
+  Object {
+    "0169_bed_a.svg": Object {
+      "g": Object {
+        "circle": Object {
+          "cx": "13.5",
+          "cy": "18.5",
+          "r": "4.5",
+        },
+        "path": Array [
+          Object {
+            "d": "M42,26H6V11c0-1.7-1.3-3-3-3s-3,1.3-3,3v29h6v-8h36v8h6V26h-5H42z",
+          },
+          Object {
+            "d": "M39,14H21v9h27C48,18,44,14,39,14z",
+          },
+        ],
+      },
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+    },
+  },
+  Object {
+    "S_0001_circle.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "d": "M24,48C10.7,48,0,37.3,0,24S10.7,0,24,0s24,10.7,24,24S37.3,48,24,48z",
+        "id": "circle",
+      },
+    },
+  },
+  Object {
+    "S_0002_diamond.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "d": "M24,0l24,24L24,48L0,24L24,0z",
+      },
+    },
+  },
+  Object {
+    "S_0003_plus.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "d": "M0,16h16V0h16v16h16v16H32v16H16V32H0V16z",
+      },
+    },
+  },
+  Object {
+    "S_0004_rectangle.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "d": "M14,0h20v48H14V0",
+      },
+    },
+  },
+  Object {
+    "S_0005_square.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "d": "M0,0h48v48H0V0z",
+      },
+    },
+  },
+  Object {
+    "S_0006_teardrop.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "d": "M24,0c0,0,4.8,5.9,14.5,17.6c6.4,8.1,5.1,19.9-2.9,26.3s-19.6,5.1-26-3c-5.4-6.8-5.4-16.5,0-23.4C19.2,5.9,24,0,24,0z",
+      },
+    },
+  },
+  Object {
+    "S_0007_teardropUp.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "d": "M24,48c0,0-4.8-5.9-14.5-17.6c-6.4-8.1-5.1-19.9,2.9-26.3s19.6-5.1,26,3c5.4,6.8,5.4,16.5,0,23.4C28.8,42.1,24,48,24,48z",
+      },
+    },
+  },
+  Object {
+    "S_0008_thinDiamond.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "d": "M24,0l14,24L24,48L10,24L24,0z",
+      },
+    },
+  },
+  Object {
+    "S_0009_triangle.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "d": "M24,4l24,40H0L24,4z",
+      },
+    },
+  },
+  Object {
+    "S_0010_triangleDown.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "d": "M24,44L0,4h48L24,44z",
+      },
+    },
+  },
+  Object {
+    "S_0011_x.svg": Object {
+      "options": Object {
+        "scale": 1.25,
+        "x": -5,
+        "y": -5,
+      },
+      "path": Object {
+        "d": "M0,12L12,0l12,12L36,0l12,12L36,24l12,12L36,48L24,36L12,48L0,36l12-12L0,12z",
+      },
+    },
+  },
+]
+`;

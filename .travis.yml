@@ -1,0 +1,29 @@
+language: node_js
+node_js:
+    - "lts/*"
+notifications:
+    email: false
+cache: false
+sudo: required
+script: skip
+branches:
+    only:
+        - master
+jobs:
+    include:
+        - stage: lint
+          script: npm run lint
+        - stage: test
+          script: npm run test
+        - stage: release
+          node_js: lts/*
+          script: skip
+          deploy:
+              provider: script
+              skip_cleanup: true
+              script: npx semantic-release
+stages:
+    - lint
+    - test
+    - name: release
+      if: type != pull_request

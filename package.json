@@ -1,39 +1,57 @@
 {
   "name": "@cerner/svg-to-carbon",
-  "version": "0.0.0",
   "description": "Converter for Cerner icons to JSON format for Carbon",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest --coverage",
-    "lint": "eslint src index.js --color --max-warnings 0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cerner/svg-to-carbon.git"
-  },
+  "version": "0.0.0",
   "author": "Cerner Corporation",
-  "license": "Apache-2.0",
-  "keywords": [
-    "svg-to-carbon",
-    "carbon-graphs"
-  ],
+  "bugs": "https://github.com/cerner/svg-to-carbon/issues",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "type-case": [
+        0,
+        "always",
+        "start-case"
+      ],
+      "type-enum": [
+        2,
+        "always",
+        [
+          "Fix",
+          "Chore",
+          "New",
+          "Docs",
+          "Breaking",
+          "Upgrade",
+          "Update",
+          "Build",
+          "Revert"
+        ]
+      ],
+      "subject-case": [
+        0,
+        "always",
+        "start-case"
+      ]
+    }
+  },
   "dependencies": {
     "glob": "^7.1.3",
     "ramda": "^0.25.0",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@semantic-release/git": "^7.0.16",
+    "conventional-changelog-eslint": "^3.0.1",
     "eslint": "^5.5.0",
     "eslint-plugin-ideal": "^0.1.3",
+    "husky": "^3.0.0",
+    "jest": "^24.5.0",
     "prettier": "^1.14.2",
-    "jest": "^24.5.0"
-  },
-  "prettier": {
-    "arrowParens": "always",
-    "bracketSpacing": true,
-    "semi": true,
-    "tabWidth": 4,
-    "trailingComma": "none"
+    "semantic-release": "^15.13.18"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -41,5 +59,35 @@
   "files": [
     "src",
     "README.md"
-  ]
+  ],
+  "homepage": "https://github.com/cerner/svg-to-carbon/",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [
+    "carbon-graphs",
+    "svg-to-carbon"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "semi": true,
+    "tabWidth": 4,
+    "trailingComma": "none"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cerner/svg-to-carbon.git"
+  },
+  "scripts": {
+    "lint": "eslint src index.js --color --max-warnings 0",
+    "test": "jest --coverage"
+  }
 }

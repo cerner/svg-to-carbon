@@ -1,7 +1,7 @@
 {
   "name": "@cerner/svg-to-carbon",
   "description": "Converter for Cerner icons to JSON format for Carbon",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Cerner Corporation",
   "bugs": "https://github.com/cerner/svg-to-carbon/issues",
   "commitlint": {

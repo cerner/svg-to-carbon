@@ -23,7 +23,7 @@ Consumer can use the following exposed functions:
 
 ```javascript
 const path = require("path");
-const { svgFolderToJSON } = require("svg-to-carbon");
+const { svgFolderToJSON } = require("@cerner/svg-to-carbon");
 
 svgFolderToJSON({
     dirPath: path.join(__dirname, "dev/assets"),
@@ -39,7 +39,7 @@ svgFolderToJSON({
 ```
 
 ```javascript
-const { svgToJSON } = require("svg-to-carbon");
+const { svgToJSON } = require("@cerner/svg-to-carbon");
 svgToJSON({
     path: path.join(__dirname, "../dev/assets/0031_glasses_a.svg"),
     options: {

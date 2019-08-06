@@ -10,6 +10,10 @@ const parser = new xml2js.Parser({
 const glob = require("glob");
 const tagList = require("./tagList");
 
+const getNodeWithInnerHtml = (html, attrs) =>
+    Object.assign(attrs, {
+        _html: html
+    });
 /**
  * Parses the node based on the buffered output provided using node js scan of the file
  * @param {Object} node - The svg node to process.
@@ -28,13 +32,23 @@ const parseNode = (node) => {
             if (Array.isArray(childNode)) {
                 processAsArray(childKey, childNode);
             } else {
-                Object.assign(nodes, {
-                    [childKey]: Object.keys(childNode).some((c) =>
-                        tagList.includes(c)
-                    )
-                        ? parseNode(childNode)
-                        : childNode.$
-                });
+                const hasMatchingTagList = Object.keys(childNode).some((c) =>
+                    tagList.includes(c)
+                );
+                if (!hasMatchingTagList && childNode._) {
+                    Object.assign(nodes, {
+                        [childKey]: getNodeWithInnerHtml(
+                            childNode._,
+                            childNode.$
+                        )
+                    });
+                } else {
+                    Object.assign(nodes, {
+                        [childKey]: hasMatchingTagList
+                            ? parseNode(childNode)
+                            : childNode.$
+                    });
+                }
             }
         }
     });

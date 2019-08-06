@@ -1,4 +1,4 @@
-const { svgToJSON } = require("../../index");
+const { svgToJSON, svgTagList } = require("../../index");
 const {
     ICON_WITH_PATH,
     ICON_WITH_MULTIPLE_PATHS,
@@ -167,5 +167,19 @@ describe("SVG File to JSON", () => {
             ).toBeDefined();
             expect(output).toMatchSnapshot();
         });
+    });
+});
+
+describe("SVG taglist", () => {
+    it("Is exposed correctly", () => {
+        expect(svgTagList.length).toBe(13);
+        expect(svgTagList.includes("path")).toBeTruthy();
+        expect(svgTagList.includes("circle")).toBeTruthy();
+        expect(svgTagList.includes("rect")).toBeTruthy();
+        expect(svgTagList.includes("polygon")).toBeTruthy();
+        expect(svgTagList.includes("line")).toBeTruthy();
+        expect(svgTagList.includes("g")).toBeTruthy();
+        expect(svgTagList.includes("ellipse")).toBeTruthy();
+        expect(svgTagList.includes("style")).toBeTruthy();
     });
 });

@@ -1,6 +1,7 @@
 "use strict";
 
 const R = require("ramda");
+const svgTagList = require("./src/tagList");
 const { convertSVGToJSON, getSVGFiles, getSVGFile } = require("./src/parser");
 
 /**
@@ -39,5 +40,6 @@ const svgToJSON = (opts) => convertSVG(opts.options)(opts.path);
 
 module.exports = {
     svgFolderToJSON,
-    svgToJSON
+    svgToJSON,
+    svgTagList
 };

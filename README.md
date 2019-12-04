@@ -10,7 +10,7 @@
 [![npm latest version](https://img.shields.io/npm/v/@cerner/svg-to-carbon/latest.svg)](https://github.com/cerner/svg-to-carbon)
 [![Cerner OSS](https://badgen.net/badge/Cerner/OSS/blue)](http://engineering.cerner.com/2014/01/cerner-and-open-source/)
 [![License](https://badgen.net/badge/license/Apache-2.0/blue)](https://github.com/cerner/svg-to-carbon/blob/master/LICENSE)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Greenkeeper badge](https://badges.greenkeeper.io/cerner/svg-to-carbon.svg)](https://greenkeeper.io/)
 
 A small utility to convert svg file(s) to JSON to provide as an input generating Carbon graphs.
 

@@ -7,7 +7,7 @@ sudo: required
 script: skip
 branches:
     only:
-        - master
+        - main
         - /^greenkeeper/.*$/
 jobs:
     include:

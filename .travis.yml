@@ -22,6 +22,8 @@ jobs:
               provider: script
               skip_cleanup: true
               script: npx semantic-release
+              on:
+                  branch: main
 stages:
     - lint
     - test

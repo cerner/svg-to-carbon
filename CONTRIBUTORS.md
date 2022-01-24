@@ -1,7 +1,9 @@
 Cerner Corporation
 
--   Abhijit Rao [@abhijit945]
--   Santosh Somavarapu [@santosh1021]
+- Ashish Motanam Gurunadham[@ashishmotanamgurunadham]
+- Elliott Hoffman [@elliott-hoffman-cerner]
+- Saad Adnan [@sdadn]
 
-[@abhijit945]: https://github.com/abhijit945
-[@santosh1021]: https://github.com/santosh1021
+[@ashishmotanamgurunadham]: https://github.com/AshishMotanamGurunadham
+[@elliott-hoffman-cerner]: https://github.com/elliott-hoffman-cerner
+[@sdadn]: https://github.com/sdadn
